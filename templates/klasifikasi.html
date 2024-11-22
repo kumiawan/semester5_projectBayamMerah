@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flowbite Flask</title>
+  <link rel="stylesheet" href="{{url_for('static',filename='dist/css/output.css')}}">
+</head>
+
+<body>
+  <header class="md:grid md:grid-cols-2 md:bg-red-200 px-8 md:h-20 md:rounded-b-3xl">
+    <div class="md:flex md:justify-start md:items-center md:gap-4">
+      Bayam Merah
+    </div>
+    <div class="md:flex md:justify-end md:items-center md:gap-4">
+      <span>
+        Klasifikasi
+      </span>
+      <a href="{{url_for('index')}}">
+        Back
+      </a>
+    </div>
+  </header>
+
+  <content class="md:grid md:grid-cols-3 bg-zinc-500">
+    <div>1</div>
+    <div class="md:col-span-2 bg-blue-100">2</div>
+  </content>
+</body>
+
+</html>

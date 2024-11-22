@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+__pycache__/
+data/
+env.txt
+env/
+guide/
+node_modules/
+note.txt
+preprocessing/
+processed_data/
+train_data.py
